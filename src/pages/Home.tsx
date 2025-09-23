@@ -145,6 +145,13 @@ const Home = () => {
                   <ArrowRight className="h-5 w-5" />
                 </Link>
                 <Link
+                  to="/ai-analysis"
+                  className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center space-x-2 transition-all duration-200 transform hover:scale-105 shadow-lg"
+                >
+                  <Zap className="h-5 w-5" />
+                  <span>AI Analysis</span>
+                </Link>
+                <Link
                   to="/legendary-skills"
                   className="bg-gradient-to-r from-bright-500 to-hot-500 hover:from-bright-600 hover:to-hot-600 text-white px-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center space-x-2 transition-all duration-200 transform hover:scale-105 shadow-lg"
                 >

@@ -77,3 +77,24 @@ export interface ContactSubmission {
   status: 'new' | 'in_progress' | 'resolved';
   created_at: string;
 }
+
+export interface AIAnalysisResult {
+  id: string;
+  user_id: string;
+  position: 'defender' | 'goalkeeper' | 'midfielder' | 'striker';
+  skill_type: string;
+  video_filename: string;
+  analysis_data: {
+    overallScore: number;
+    position: string;
+    skill: string;
+    strengths: string[];
+    improvements: string[];
+    recommendations: string[];
+    technicalMetrics: Record<string, number>;
+    nextSteps: string[];
+  };
+  overall_score: number;
+  created_at: string;
+  updated_at: string;
+}

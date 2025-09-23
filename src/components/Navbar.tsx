@@ -16,6 +16,7 @@ const Navbar = () => {
     { name: 'About', path: '/about' },
     { name: 'Programs', path: '/programs' },
     { name: 'Legendary Skills', path: '/legendary-skills' },
+    { name: 'AI Analysis', path: '/ai-analysis' },
     { name: 'How It Works', path: '/how-it-works' },
     { name: 'Pricing', path: '/pricing' },
     { name: 'Testimonials', path: '/testimonials' },

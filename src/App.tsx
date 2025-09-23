@@ -10,6 +10,7 @@ import Pricing from './pages/Pricing';
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
 import LegendarySkills from './pages/LegendarySkills';
+import AIAnalysis from './pages/AIAnalysis';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/legendary-skills" element={<LegendarySkills />} />
+            <Route path="/ai-analysis" element={<AIAnalysis />} />
           </Routes>
         </main>
         <Footer />
