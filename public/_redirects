@@ -1,0 +1,15 @@
+# Netlify redirects file
+/*    /index.html   200
+
+# API redirects (if needed for future API routes)
+/api/*  /.netlify/functions/:splat  200
+
+# Handle trailing slashes
+/about/  /about  301!
+/programs/  /programs  301!
+/pricing/  /pricing  301!
+/contact/  /contact  301!
+/testimonials/  /testimonials  301!
+/how-it-works/  /how-it-works  301!
+/legendary-skills/  /legendary-skills  301!
+/ai-analysis/  /ai-analysis  301!
