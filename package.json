@@ -13,7 +13,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build:production": "NODE_ENV=production vite build",
-    "build:staging": "NODE_ENV=staging vite build"
+    "build:staging": "NODE_ENV=staging vite build",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
