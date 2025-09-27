@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Trophy, Target, Zap, Crown, CheckCircle, Users, Clock, Shield, Goal, Compass, Crosshair } from 'lucide-react';
 
 const Programs = () => {
@@ -392,9 +393,14 @@ const Programs = () => {
                     ))}
                   </div>
                   <div className="mt-8 text-center">
-                    <button className={`${level.color} hover:opacity-90 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-200`}>
-                      Start {level.level} Training
-                    </button>
+                    <div className="space-y-3">
+                      <button className={`${level.color} hover:opacity-90 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-200 w-full`}>
+                        Start {level.level} Training
+                      </button>
+                      <div className="text-sm text-gray-600">
+                        Complete all programs to unlock the final exam
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

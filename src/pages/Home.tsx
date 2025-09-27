@@ -132,9 +132,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl text-electric-100 leading-relaxed">
-                Specialized 4-day home training programs for every position and skill level. 
-                Build strength, stamina, technical skills, and position-specific expertise 
-                from Beginner to Pro level.
+                Welcome to ProEdge - the ultimate online football training platform! Master your position with our specialized 4-day home training programs designed for Defenders, Goalkeepers, Midfielders, and Strikers. Progress through four skill levels with comprehensive physical training, stamina building, technical skill development, and position-specific mastery. Complete with AI analysis, legendary skills training, and level completion exams to track your journey from beginner to pro!
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -161,12 +159,27 @@ const Home = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-video bg-gradient-to-r from-white/10 to-white/5 rounded-2xl backdrop-blur-sm border-2 border-bright-400/30 flex items-center justify-center shadow-2xl">
-                <div className="text-center">
-                  <div className="bg-gradient-to-r from-bright-400 to-hot-400 p-4 rounded-full mb-4 animate-pulse">
-                    <Play className="h-16 w-16 text-white" />
+              <div className="bg-gradient-to-r from-white/10 to-white/5 rounded-2xl backdrop-blur-sm border-2 border-bright-400/30 p-8 shadow-2xl">
+                <div className="text-center text-white">
+                  <h3 className="text-2xl font-bold mb-4">Complete Training System</h3>
+                  <div className="grid grid-cols-2 gap-4 text-sm">
+                    <div className="bg-white/10 rounded-lg p-3">
+                      <Trophy className="h-6 w-6 mx-auto mb-2" />
+                      <div>4 Positions</div>
+                    </div>
+                    <div className="bg-white/10 rounded-lg p-3">
+                      <Target className="h-6 w-6 mx-auto mb-2" />
+                      <div>4 Skill Levels</div>
+                    </div>
+                    <div className="bg-white/10 rounded-lg p-3">
+                      <Zap className="h-6 w-6 mx-auto mb-2" />
+                      <div>AI Analysis</div>
+                    </div>
+                    <div className="bg-white/10 rounded-lg p-3">
+                      <CheckCircle className="h-6 w-6 mx-auto mb-2" />
+                      <div>Level Exams</div>
+                    </div>
                   </div>
-                  <p className="text-white/80 font-medium">Position Training Preview</p>
                 </div>
               </div>
             </div>

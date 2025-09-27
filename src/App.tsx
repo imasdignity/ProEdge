@@ -11,6 +11,7 @@ import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
 import LegendarySkills from './pages/LegendarySkills';
 import AIAnalysis from './pages/AIAnalysis';
+import LevelExam from './pages/LevelExam';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/legendary-skills" element={<LegendarySkills />} />
             <Route path="/ai-analysis" element={<AIAnalysis />} />
+            <Route path="/exam/:level/:position" element={<LevelExam />} />
           </Routes>
         </main>
         <Footer />

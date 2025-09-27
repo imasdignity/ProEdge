@@ -98,3 +98,15 @@ export interface AIAnalysisResult {
   created_at: string;
   updated_at: string;
 }
+
+export interface LevelExam {
+  id: string;
+  user_id: string;
+  level: 'beginner' | 'intermediate' | 'advanced' | 'pro';
+  position: 'defender' | 'goalkeeper' | 'midfielder' | 'striker';
+  score: number;
+  passed: boolean;
+  answers: number[];
+  completed_at: string;
+  created_at: string;
+}
